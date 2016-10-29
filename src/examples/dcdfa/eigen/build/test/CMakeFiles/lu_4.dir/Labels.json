@@ -1,0 +1,15 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/kotone/dfa/eigen/test/lu.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "BuildOfficial" ],
+		"name" : "lu_4"
+	}
+}

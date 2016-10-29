@@ -1,0 +1,15 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/kotone/dfa/eigen/test/geo_orthomethods.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "BuildOfficial" ],
+		"name" : "geo_orthomethods_5"
+	}
+}

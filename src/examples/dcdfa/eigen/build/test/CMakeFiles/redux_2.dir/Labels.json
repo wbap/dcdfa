@@ -1,0 +1,15 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/kotone/dfa/eigen/test/redux.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "BuildOfficial" ],
+		"name" : "redux_2"
+	}
+}

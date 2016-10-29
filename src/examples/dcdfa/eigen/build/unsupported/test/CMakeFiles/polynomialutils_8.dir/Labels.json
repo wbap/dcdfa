@@ -1,0 +1,15 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/kotone/dfa/eigen/unsupported/test/polynomialutils.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "BuildUnsupported" ],
+		"name" : "polynomialutils_8"
+	}
+}

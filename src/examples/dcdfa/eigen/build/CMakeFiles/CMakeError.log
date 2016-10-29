@@ -1,0 +1,136 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6067/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6067.dir/build.make CMakeFiles/cmTC_e6067.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6067.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -wd981   -o CMakeFiles/cmTC_e6067.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+CMakeFiles/cmTC_e6067.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e6067.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e6067.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e6067/fast' failed
+make: *** [cmTC_e6067/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2adf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2adf.dir/build.make CMakeFiles/cmTC_d2adf.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d2adf.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -wd2304   -o CMakeFiles/cmTC_d2adf.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+CMakeFiles/cmTC_d2adf.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d2adf.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d2adf.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d2adf/fast' failed
+make: *** [cmTC_d2adf/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fcc9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7fcc9.dir/build.make CMakeFiles/cmTC_7fcc9.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7fcc9.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -strict-ansi   -o CMakeFiles/cmTC_7fcc9.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'
+CMakeFiles/cmTC_7fcc9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7fcc9.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7fcc9.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7fcc9/fast' failed
+make: *** [cmTC_7fcc9/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3f0d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3f0d.dir/build.make CMakeFiles/cmTC_a3f0d.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a3f0d.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Qunused-arguments   -o CMakeFiles/cmTC_a3f0d.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'
+CMakeFiles/cmTC_a3f0d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a3f0d.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a3f0d.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a3f0d/fast' failed
+make: *** [cmTC_a3f0d/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d743e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d743e.dir/build.make CMakeFiles/cmTC_d743e.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d743e.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -wd981   -o CMakeFiles/cmTC_d743e.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+CMakeFiles/cmTC_d743e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d743e.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d743e.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d743e/fast' failed
+make: *** [cmTC_d743e/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d47a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d47a.dir/build.make CMakeFiles/cmTC_5d47a.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5d47a.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -wd2304   -o CMakeFiles/cmTC_5d47a.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+CMakeFiles/cmTC_5d47a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5d47a.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_5d47a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5d47a/fast' failed
+make: *** [cmTC_5d47a/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4832/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4832.dir/build.make CMakeFiles/cmTC_d4832.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d4832.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -strict-ansi   -o CMakeFiles/cmTC_d4832.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'
+CMakeFiles/cmTC_d4832.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d4832.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d4832.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d4832/fast' failed
+make: *** [cmTC_d4832/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eec9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eec9c.dir/build.make CMakeFiles/cmTC_eec9c.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eec9c.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Qunused-arguments   -o CMakeFiles/cmTC_eec9c.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'
+CMakeFiles/cmTC_eec9c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_eec9c.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_eec9c.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_eec9c/fast' failed
+make: *** [cmTC_eec9c/fast] Error 2
+
+Source file was:
+int main() { return 0; }

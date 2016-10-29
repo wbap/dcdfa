@@ -1,0 +1,1051 @@
+The system is: Linux - 4.4.0-36-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/kotone/dfa/eigen/build/CMakeFiles/3.3.0-rc2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/kotone/dfa/eigen/build/CMakeFiles/3.3.0-rc2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb43d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bb43d.dir/build.make CMakeFiles/cmTC_bb43d.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb43d.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bb43d.dir/testCCompiler.c.o   -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_bb43d
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb43d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bb43d.dir/testCCompiler.c.o  -o cmTC_bb43d -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68de8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68de8.dir/build.make CMakeFiles/cmTC_68de8.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68de8.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_68de8.dir/CMakeCCompilerABI.c.o   -c /home/kotone/share/cmake-3.3/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_68de8
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68de8.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_68de8.dir/CMakeCCompilerABI.c.o  -o cmTC_68de8 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68de8' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cck9XazZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_68de8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_68de8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_68de8/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_68de8.dir/build.make CMakeFiles/cmTC_68de8.dir/build]
+  ignore line: [make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_68de8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_68de8.dir/CMakeCCompilerABI.c.o   -c /home/kotone/share/cmake-3.3/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_68de8]
+  ignore line: [/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68de8.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_68de8.dir/CMakeCCompilerABI.c.o  -o cmTC_68de8 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68de8' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cck9XazZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_68de8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_68de8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cck9XazZ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_68de8] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_68de8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4cb06/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4cb06.dir/build.make CMakeFiles/cmTC_4cb06.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cb06.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_4cb06.dir/feature_tests.c.o   -c /home/kotone/dfa/eigen/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4cb06
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cb06.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_4cb06.dir/feature_tests.c.o  -o cmTC_4cb06 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a453a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a453a.dir/build.make CMakeFiles/cmTC_a453a.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a453a.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_a453a.dir/feature_tests.c.o   -c /home/kotone/dfa/eigen/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a453a
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a453a.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a453a.dir/feature_tests.c.o  -o cmTC_a453a -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6cd84/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6cd84.dir/build.make CMakeFiles/cmTC_6cd84.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6cd84.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_6cd84.dir/feature_tests.c.o   -c /home/kotone/dfa/eigen/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6cd84
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cd84.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_6cd84.dir/feature_tests.c.o  -o cmTC_6cd84 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0cefb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0cefb.dir/build.make CMakeFiles/cmTC_0cefb.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0cefb.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_0cefb.dir/testCXXCompiler.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_0cefb
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cefb.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_0cefb.dir/testCXXCompiler.cxx.o  -o cmTC_0cefb -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8f45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8f45.dir/build.make CMakeFiles/cmTC_f8f45.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f8f45.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f8f45.dir/CMakeCXXCompilerABI.cpp.o -c /home/kotone/share/cmake-3.3/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f8f45
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8f45.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_f8f45.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f8f45 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f8f45' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnNGLW8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f8f45 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f8f45.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f783/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f783.dir/build.make CMakeFiles/cmTC_9f783.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9f783.dir/src.cxx.o
+/usr/bin/c++    -Dstandard_math_library_linked_to_automatically   -o CMakeFiles/cmTC_9f783.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9f783
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f783.dir/link.txt --verbose=1
+/usr/bin/c++    -Dstandard_math_library_linked_to_automatically    CMakeFiles/cmTC_9f783.dir/src.cxx.o  -o cmTC_9f783 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include<cmath>
+int main() { std::sin(0.0); std::log(0.0f); }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_WERROR succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06704/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06704.dir/build.make CMakeFiles/cmTC_06704.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06704.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -DCOMPILER_SUPPORT_WERROR -Werror   -o CMakeFiles/cmTC_06704.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_06704
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06704.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -DCOMPILER_SUPPORT_WERROR -Werror    CMakeFiles/cmTC_06704.dir/src.cxx.o  -o cmTC_06704 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_pedantic succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f8df/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f8df.dir/build.make CMakeFiles/cmTC_8f8df.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8f8df.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -DCOMPILER_SUPPORT_pedantic -pedantic   -o CMakeFiles/cmTC_8f8df.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8f8df
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f8df.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -DCOMPILER_SUPPORT_pedantic -pedantic    CMakeFiles/cmTC_8f8df.dir/src.cxx.o  -o cmTC_8f8df -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wall succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba307/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba307.dir/build.make CMakeFiles/cmTC_ba307.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba307.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -DCOMPILER_SUPPORT_Wall -Wall   -o CMakeFiles/cmTC_ba307.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ba307
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba307.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -DCOMPILER_SUPPORT_Wall -Wall    CMakeFiles/cmTC_ba307.dir/src.cxx.o  -o cmTC_ba307 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wextra succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32ecb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_32ecb.dir/build.make CMakeFiles/cmTC_32ecb.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_32ecb.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -DCOMPILER_SUPPORT_Wextra -Wextra   -o CMakeFiles/cmTC_32ecb.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_32ecb
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32ecb.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -DCOMPILER_SUPPORT_Wextra -Wextra    CMakeFiles/cmTC_32ecb.dir/src.cxx.o  -o cmTC_32ecb -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wundef succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ed51/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ed51.dir/build.make CMakeFiles/cmTC_1ed51.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1ed51.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -DCOMPILER_SUPPORT_Wundef -Wundef   -o CMakeFiles/cmTC_1ed51.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1ed51
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ed51.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -DCOMPILER_SUPPORT_Wundef -Wundef    CMakeFiles/cmTC_1ed51.dir/src.cxx.o  -o cmTC_1ed51 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcastalign succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6015c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6015c.dir/build.make CMakeFiles/cmTC_6015c.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6015c.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -DCOMPILER_SUPPORT_Wcastalign -Wcast-align   -o CMakeFiles/cmTC_6015c.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6015c
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6015c.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -DCOMPILER_SUPPORT_Wcastalign -Wcast-align    CMakeFiles/cmTC_6015c.dir/src.cxx.o  -o cmTC_6015c -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcharsubscripts succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aea86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aea86.dir/build.make CMakeFiles/cmTC_aea86.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aea86.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -DCOMPILER_SUPPORT_Wcharsubscripts -Wchar-subscripts   -o CMakeFiles/cmTC_aea86.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aea86
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aea86.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -DCOMPILER_SUPPORT_Wcharsubscripts -Wchar-subscripts    CMakeFiles/cmTC_aea86.dir/src.cxx.o  -o cmTC_aea86 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnonvirtualdtor succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d412d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d412d.dir/build.make CMakeFiles/cmTC_d412d.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d412d.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -DCOMPILER_SUPPORT_Wnonvirtualdtor -Wnon-virtual-dtor   -o CMakeFiles/cmTC_d412d.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d412d
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d412d.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -DCOMPILER_SUPPORT_Wnonvirtualdtor -Wnon-virtual-dtor    CMakeFiles/cmTC_d412d.dir/src.cxx.o  -o cmTC_d412d -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wunusedlocaltypedefs succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9f4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9f4d.dir/build.make CMakeFiles/cmTC_a9f4d.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a9f4d.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -DCOMPILER_SUPPORT_Wunusedlocaltypedefs -Wunused-local-typedefs   -o CMakeFiles/cmTC_a9f4d.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a9f4d
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9f4d.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -DCOMPILER_SUPPORT_Wunusedlocaltypedefs -Wunused-local-typedefs    CMakeFiles/cmTC_a9f4d.dir/src.cxx.o  -o cmTC_a9f4d -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wpointerarith succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_469e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_469e5.dir/build.make CMakeFiles/cmTC_469e5.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_469e5.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -DCOMPILER_SUPPORT_Wpointerarith -Wpointer-arith   -o CMakeFiles/cmTC_469e5.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_469e5
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_469e5.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -DCOMPILER_SUPPORT_Wpointerarith -Wpointer-arith    CMakeFiles/cmTC_469e5.dir/src.cxx.o  -o cmTC_469e5 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wwritestrings succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07449/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07449.dir/build.make CMakeFiles/cmTC_07449.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07449.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -DCOMPILER_SUPPORT_Wwritestrings -Wwrite-strings   -o CMakeFiles/cmTC_07449.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_07449
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07449.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -DCOMPILER_SUPPORT_Wwritestrings -Wwrite-strings    CMakeFiles/cmTC_07449.dir/src.cxx.o  -o cmTC_07449 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wformatsecurity succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_705e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_705e2.dir/build.make CMakeFiles/cmTC_705e2.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_705e2.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -DCOMPILER_SUPPORT_Wformatsecurity -Wformat-security   -o CMakeFiles/cmTC_705e2.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_705e2
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_705e2.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -DCOMPILER_SUPPORT_Wformatsecurity -Wformat-security    CMakeFiles/cmTC_705e2.dir/src.cxx.o  -o cmTC_705e2 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b0a75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0a75.dir/build.make CMakeFiles/cmTC_b0a75.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b0a75.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wnopsabi -Wno-psabi   -o CMakeFiles/cmTC_b0a75.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b0a75
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0a75.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wnopsabi -Wno-psabi    CMakeFiles/cmTC_b0a75.dir/src.cxx.o  -o cmTC_b0a75 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnovariadicmacros succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75360/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75360.dir/build.make CMakeFiles/cmTC_75360.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_75360.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -DCOMPILER_SUPPORT_Wnovariadicmacros -Wno-variadic-macros   -o CMakeFiles/cmTC_75360.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_75360
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75360.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -DCOMPILER_SUPPORT_Wnovariadicmacros -Wno-variadic-macros    CMakeFiles/cmTC_75360.dir/src.cxx.o  -o cmTC_75360 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnolonglong succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a967c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a967c.dir/build.make CMakeFiles/cmTC_a967c.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a967c.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -DCOMPILER_SUPPORT_Wnolonglong -Wno-long-long   -o CMakeFiles/cmTC_a967c.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a967c
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a967c.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -DCOMPILER_SUPPORT_Wnolonglong -Wno-long-long    CMakeFiles/cmTC_a967c.dir/src.cxx.o  -o cmTC_a967c -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnochecknew succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2041b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2041b.dir/build.make CMakeFiles/cmTC_2041b.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2041b.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -DCOMPILER_SUPPORT_fnochecknew -fno-check-new   -o CMakeFiles/cmTC_2041b.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2041b
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2041b.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -DCOMPILER_SUPPORT_fnochecknew -fno-check-new    CMakeFiles/cmTC_2041b.dir/src.cxx.o  -o cmTC_2041b -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnocommon succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79e77/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79e77.dir/build.make CMakeFiles/cmTC_79e77.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_79e77.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -DCOMPILER_SUPPORT_fnocommon -fno-common   -o CMakeFiles/cmTC_79e77.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_79e77
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79e77.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -DCOMPILER_SUPPORT_fnocommon -fno-common    CMakeFiles/cmTC_79e77.dir/src.cxx.o  -o cmTC_79e77 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fstrictaliasing succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e64e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e64e5.dir/build.make CMakeFiles/cmTC_e64e5.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e64e5.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -DCOMPILER_SUPPORT_fstrictaliasing -fstrict-aliasing   -o CMakeFiles/cmTC_e64e5.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e64e5
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e64e5.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -DCOMPILER_SUPPORT_fstrictaliasing -fstrict-aliasing    CMakeFiles/cmTC_e64e5.dir/src.cxx.o  -o cmTC_e64e5 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_ansi succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_579fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_579fb.dir/build.make CMakeFiles/cmTC_579fb.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_579fb.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_ansi -ansi   -o CMakeFiles/cmTC_579fb.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_579fb
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_579fb.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_ansi -ansi    CMakeFiles/cmTC_579fb.dir/src.cxx.o  -o cmTC_579fb -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14667/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14667.dir/build.make CMakeFiles/cmTC_14667.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_14667.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_OPENMP -fopenmp   -o CMakeFiles/cmTC_14667.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_14667
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14667.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_OPENMP -fopenmp    CMakeFiles/cmTC_14667.dir/src.cxx.o  -o cmTC_14667 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/gfortran 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/home/kotone/dfa/eigen/build/CMakeFiles/3.3.0-rc2/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a40ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a40ad.dir/build.make CMakeFiles/cmTC_a40ad.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_a40ad.dir/testFortranCompiler.f.o
+/usr/bin/gfortran    -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_a40ad.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_a40ad
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a40ad.dir/link.txt --verbose=1
+/usr/bin/gfortran       CMakeFiles/cmTC_a40ad.dir/testFortranCompiler.f.o  -o cmTC_a40ad -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45820/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45820.dir/build.make CMakeFiles/cmTC_45820.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_45820.dir/CMakeFortranCompilerABI.F.o
+/usr/bin/gfortran    -c /home/kotone/share/cmake-3.3/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_45820.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTC_45820
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45820.dir/link.txt --verbose=1
+/usr/bin/gfortran    -v   CMakeFiles/cmTC_45820.dir/CMakeFortranCompilerABI.F.o  -o cmTC_45820 -rdynamic  
+Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_45820.dir/CMakeFortranCompilerABI.F.o -o cmTC_45820 -rdynamic -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.2) 
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45820' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45820' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccA5WbFe.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_45820 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_45820.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_45820/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_45820.dir/build.make CMakeFiles/cmTC_45820.dir/build]
+  ignore line: [make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_45820.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/bin/gfortran    -c /home/kotone/share/cmake-3.3/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_45820.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTC_45820]
+  ignore line: [/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45820.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gfortran    -v   CMakeFiles/cmTC_45820.dir/CMakeFortranCompilerABI.F.o  -o cmTC_45820 -rdynamic  ]
+  ignore line: [Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_45820.dir/CMakeFortranCompilerABI.F.o -o cmTC_45820 -rdynamic -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.2) ]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45820' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45820' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccA5WbFe.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_45820 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_45820.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccA5WbFe.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_45820] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_45820.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [gfortran;m;quadmath;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfe42/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dfe42.dir/build.make CMakeFiles/cmTC_dfe42.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_dfe42.dir/testFortranCompilerF90.f90.o
+/usr/bin/gfortran    -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_dfe42.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_dfe42
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfe42.dir/link.txt --verbose=1
+/usr/bin/gfortran       CMakeFiles/cmTC_dfe42.dir/testFortranCompilerF90.f90.o  -o cmTC_dfe42 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4f67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4f67.dir/build.make CMakeFiles/cmTC_a4f67.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a4f67.dir/src.cxx.o
+/usr/bin/c++    -Dstandard_math_library_linked_to_automatically   -o CMakeFiles/cmTC_a4f67.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a4f67
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4f67.dir/link.txt --verbose=1
+/usr/bin/c++    -Dstandard_math_library_linked_to_automatically    CMakeFiles/cmTC_a4f67.dir/src.cxx.o  -o cmTC_a4f67 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include<cmath>
+int main() { std::sin(0.0); std::log(0.0f); }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_WERROR succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_96be1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_96be1.dir/build.make CMakeFiles/cmTC_96be1.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96be1.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -DCOMPILER_SUPPORT_WERROR -Werror   -o CMakeFiles/cmTC_96be1.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_96be1
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96be1.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -DCOMPILER_SUPPORT_WERROR -Werror    CMakeFiles/cmTC_96be1.dir/src.cxx.o  -o cmTC_96be1 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_pedantic succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6fe3f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6fe3f.dir/build.make CMakeFiles/cmTC_6fe3f.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6fe3f.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -DCOMPILER_SUPPORT_pedantic -pedantic   -o CMakeFiles/cmTC_6fe3f.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6fe3f
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fe3f.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -DCOMPILER_SUPPORT_pedantic -pedantic    CMakeFiles/cmTC_6fe3f.dir/src.cxx.o  -o cmTC_6fe3f -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wall succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a087/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a087.dir/build.make CMakeFiles/cmTC_5a087.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a087.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -DCOMPILER_SUPPORT_Wall -Wall   -o CMakeFiles/cmTC_5a087.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5a087
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a087.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -DCOMPILER_SUPPORT_Wall -Wall    CMakeFiles/cmTC_5a087.dir/src.cxx.o  -o cmTC_5a087 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wextra succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6550/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6550.dir/build.make CMakeFiles/cmTC_f6550.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f6550.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -DCOMPILER_SUPPORT_Wextra -Wextra   -o CMakeFiles/cmTC_f6550.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f6550
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6550.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -DCOMPILER_SUPPORT_Wextra -Wextra    CMakeFiles/cmTC_f6550.dir/src.cxx.o  -o cmTC_f6550 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wundef succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c925/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c925.dir/build.make CMakeFiles/cmTC_7c925.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7c925.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -DCOMPILER_SUPPORT_Wundef -Wundef   -o CMakeFiles/cmTC_7c925.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7c925
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c925.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -DCOMPILER_SUPPORT_Wundef -Wundef    CMakeFiles/cmTC_7c925.dir/src.cxx.o  -o cmTC_7c925 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcastalign succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_86fa7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86fa7.dir/build.make CMakeFiles/cmTC_86fa7.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86fa7.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -DCOMPILER_SUPPORT_Wcastalign -Wcast-align   -o CMakeFiles/cmTC_86fa7.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_86fa7
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86fa7.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -DCOMPILER_SUPPORT_Wcastalign -Wcast-align    CMakeFiles/cmTC_86fa7.dir/src.cxx.o  -o cmTC_86fa7 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcharsubscripts succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0cdbd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0cdbd.dir/build.make CMakeFiles/cmTC_0cdbd.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0cdbd.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -DCOMPILER_SUPPORT_Wcharsubscripts -Wchar-subscripts   -o CMakeFiles/cmTC_0cdbd.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0cdbd
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cdbd.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -DCOMPILER_SUPPORT_Wcharsubscripts -Wchar-subscripts    CMakeFiles/cmTC_0cdbd.dir/src.cxx.o  -o cmTC_0cdbd -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnonvirtualdtor succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2820c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2820c.dir/build.make CMakeFiles/cmTC_2820c.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2820c.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -DCOMPILER_SUPPORT_Wnonvirtualdtor -Wnon-virtual-dtor   -o CMakeFiles/cmTC_2820c.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2820c
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2820c.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -DCOMPILER_SUPPORT_Wnonvirtualdtor -Wnon-virtual-dtor    CMakeFiles/cmTC_2820c.dir/src.cxx.o  -o cmTC_2820c -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wunusedlocaltypedefs succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68120/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68120.dir/build.make CMakeFiles/cmTC_68120.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_68120.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -DCOMPILER_SUPPORT_Wunusedlocaltypedefs -Wunused-local-typedefs   -o CMakeFiles/cmTC_68120.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_68120
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68120.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -DCOMPILER_SUPPORT_Wunusedlocaltypedefs -Wunused-local-typedefs    CMakeFiles/cmTC_68120.dir/src.cxx.o  -o cmTC_68120 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wpointerarith succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fbf3c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fbf3c.dir/build.make CMakeFiles/cmTC_fbf3c.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fbf3c.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -DCOMPILER_SUPPORT_Wpointerarith -Wpointer-arith   -o CMakeFiles/cmTC_fbf3c.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fbf3c
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbf3c.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -DCOMPILER_SUPPORT_Wpointerarith -Wpointer-arith    CMakeFiles/cmTC_fbf3c.dir/src.cxx.o  -o cmTC_fbf3c -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wwritestrings succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19399/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19399.dir/build.make CMakeFiles/cmTC_19399.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19399.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -DCOMPILER_SUPPORT_Wwritestrings -Wwrite-strings   -o CMakeFiles/cmTC_19399.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_19399
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19399.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -DCOMPILER_SUPPORT_Wwritestrings -Wwrite-strings    CMakeFiles/cmTC_19399.dir/src.cxx.o  -o cmTC_19399 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wformatsecurity succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64840/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64840.dir/build.make CMakeFiles/cmTC_64840.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64840.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -DCOMPILER_SUPPORT_Wformatsecurity -Wformat-security   -o CMakeFiles/cmTC_64840.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_64840
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64840.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -DCOMPILER_SUPPORT_Wformatsecurity -Wformat-security    CMakeFiles/cmTC_64840.dir/src.cxx.o  -o cmTC_64840 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33fc4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33fc4.dir/build.make CMakeFiles/cmTC_33fc4.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33fc4.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wnopsabi -Wno-psabi   -o CMakeFiles/cmTC_33fc4.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_33fc4
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33fc4.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wnopsabi -Wno-psabi    CMakeFiles/cmTC_33fc4.dir/src.cxx.o  -o cmTC_33fc4 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnovariadicmacros succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0197c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0197c.dir/build.make CMakeFiles/cmTC_0197c.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0197c.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -DCOMPILER_SUPPORT_Wnovariadicmacros -Wno-variadic-macros   -o CMakeFiles/cmTC_0197c.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0197c
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0197c.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -DCOMPILER_SUPPORT_Wnovariadicmacros -Wno-variadic-macros    CMakeFiles/cmTC_0197c.dir/src.cxx.o  -o cmTC_0197c -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnolonglong succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62bee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62bee.dir/build.make CMakeFiles/cmTC_62bee.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62bee.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -DCOMPILER_SUPPORT_Wnolonglong -Wno-long-long   -o CMakeFiles/cmTC_62bee.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_62bee
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62bee.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -DCOMPILER_SUPPORT_Wnolonglong -Wno-long-long    CMakeFiles/cmTC_62bee.dir/src.cxx.o  -o cmTC_62bee -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnochecknew succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e322/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e322.dir/build.make CMakeFiles/cmTC_5e322.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e322.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -DCOMPILER_SUPPORT_fnochecknew -fno-check-new   -o CMakeFiles/cmTC_5e322.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5e322
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e322.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -DCOMPILER_SUPPORT_fnochecknew -fno-check-new    CMakeFiles/cmTC_5e322.dir/src.cxx.o  -o cmTC_5e322 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnocommon succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b4bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b4bd.dir/build.make CMakeFiles/cmTC_8b4bd.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8b4bd.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -DCOMPILER_SUPPORT_fnocommon -fno-common   -o CMakeFiles/cmTC_8b4bd.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8b4bd
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b4bd.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -DCOMPILER_SUPPORT_fnocommon -fno-common    CMakeFiles/cmTC_8b4bd.dir/src.cxx.o  -o cmTC_8b4bd -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fstrictaliasing succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0171/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0171.dir/build.make CMakeFiles/cmTC_e0171.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0171.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -DCOMPILER_SUPPORT_fstrictaliasing -fstrict-aliasing   -o CMakeFiles/cmTC_e0171.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e0171
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0171.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -DCOMPILER_SUPPORT_fstrictaliasing -fstrict-aliasing    CMakeFiles/cmTC_e0171.dir/src.cxx.o  -o cmTC_e0171 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_ansi succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6bb64/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6bb64.dir/build.make CMakeFiles/cmTC_6bb64.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6bb64.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_ansi -ansi   -o CMakeFiles/cmTC_6bb64.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6bb64
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bb64.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_ansi -ansi    CMakeFiles/cmTC_6bb64.dir/src.cxx.o  -o cmTC_6bb64 -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeded with the following output:
+Change Dir: /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d590e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d590e.dir/build.make CMakeFiles/cmTC_d590e.dir/build
+make[1]: Entering directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d590e.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_OPENMP -fopenmp   -o CMakeFiles/cmTC_d590e.dir/src.cxx.o -c /home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d590e
+/home/kotone/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d590e.dir/link.txt --verbose=1
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_OPENMP -fopenmp    CMakeFiles/cmTC_d590e.dir/src.cxx.o  -o cmTC_d590e -rdynamic 
+make[1]: Leaving directory '/home/kotone/dfa/eigen/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
