@@ -7,3 +7,6 @@
 [submodule "external/asio"]
 	path = external/asio
 	url = https://github.com/chriskohlhoff/asio.git
+[submodule "src/examples/dcdfa/mnist"]
+	path = src/examples/dcdfa/mnist
+	url = https://github.com/wichtounet/mnist
