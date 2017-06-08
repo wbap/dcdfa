@@ -12,9 +12,6 @@
 
 #include "brica2.hpp"
 
-#include <opencv2/core/core.hpp>
-#include <opencv2/highgui/highgui.hpp>
-
 auto sigmoid = [](const float x)->float { return tanh(x * 0.5f) * 0.5f + 0.5f; };
 auto dsigmoid = [](const float y)->float { return y * (1.0f - y); };
 
